@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<body>
+
+    <div style="display: grid;
+    grid-template-columns: 200px 75px;">
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+        </div>
+    </div>
+    
+    <div style="display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-top: 10px;">
+        <div style="background-color: lightblue;">
+            col1
+        </div>
+        <div style="background-color: lightpink;">
+            col2
+        </div>
+        <div style="background-color: lightgreen;">
+            col3
+        </div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-top: 10px;">
+        <div style="background-color: lightblue;">
+            col1
+        </div>
+        <div style="background-color: lightpink;">
+            col2
+        </div>
+        <div style="background-color: lightgreen;">
+            col3
+        </div>
+        <div style="background-color: rgb(233, 238, 144);">
+            col4
+        </div>
+        <div style="background-color: lightblue;">
+            col5
+        </div>
+        <div style="background-color: lightpink;">
+            col6
+        </div>
+        <div style="background-color: lightgreen;">
+            col7
+        </div>
+        <div style="background-color: rgb(233, 238, 144);">
+            col8
+        </div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 100px 100px 1fr;
+    margin-top: 10px;">
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+        </div>
+        <div style="background-color: lightgreen;">
+            1fr
+        </div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    height: 500px;
+    column-gap: 10px;
+    row-gap: 20px;">
+        <div style="background-color: lightblue;">
+            1fr
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+        </div>
+        <div style="background-color: lightgreen;">
+            1fr
+        </div>
+        <div style="background-color: rgb(179, 173, 230);">
+            1fr
+        </div>
+        <div style="background-color: rgb(255, 245, 182);">
+            1fr
+        </div>
+        <div style="background-color: rgb(229, 144, 238);">
+            1fr
+        </div>
+    </div>
+
+    <div style="justify-content: right;">
+        <button>
+            Download
+        </button>
+    </div>
+</body>
+</html>

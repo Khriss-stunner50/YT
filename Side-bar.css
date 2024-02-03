@@ -1,0 +1,85 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px ;
+    background-color: white;
+    width: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.SB-icons{
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.subscriptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.originals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.youtube-music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.library{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 72px;
+}
+
+.side-bar-box:hover{
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+}
